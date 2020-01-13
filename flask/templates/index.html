@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ты пидорас</title>
+</head>
+<body>
+    <a href="/logout">Logout</a><br>
+
+    {%for value in resp%}
+        <a href="{{ value.id }}">{{ value.lesson }}</a><br>
+    {%endfor%}
+</body>
+</html>

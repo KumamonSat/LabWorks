@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <label>{{ resp }}</label>
+    <form action="/admin/user/add" method="post" name="form1">
+        <label>Введите почту:</label><br>
+        <input type="text" placeholder="email" name="email"><br>
+        <label>Введите почту:</label><br>
+        <input type="text" placeholder="username" name="username"><br>
+        <label>Введите почту:</label><br>
+        <input type="text" placeholder="group" name="group"><br>
+        <label>Укажите статус</label>
+        <p><select name="list">
+            <option>Выберите из списка</option>
+            <option>admin</option>
+            <option>user</option>
+            <option>teacher</option>
+        </select></p>
+        <p><input type="submit" value="Отправить"></p>
+</form>
+
+
+</body>
+</html>
